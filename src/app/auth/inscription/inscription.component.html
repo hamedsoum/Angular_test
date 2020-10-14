@@ -1,0 +1,57 @@
+<div class="inscription">
+
+    <div class="icon">
+        <img  [src]=" logo" alt="" srcset="">
+      </div>
+      <div class="application">
+        <p class="title">Inscription</p>
+        <div class="Description">Chère creatif vueillez renseigner les champs d'inscription <br>
+          NB: Les champs obligatoires sont indiqués avec un astérique(*)</div>
+      </div>
+      <div class="container-fluid">
+        <div class="row ">
+          <div class="col">
+            <div class="icon">
+              inscription
+          </div>
+          </div>
+          <div class="col-8 form">
+            
+            <form>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Entreprise" value="Entreprise">
+                    <label class="form-check-label" for="Entreprise">Entreprise</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Particulier" value="Particulier">
+                    <label class="form-check-label" for="Particulier">Particulier</label>
+                  </div>
+                  
+              <div class="form-row mt-2 mb-5">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Nom complet*">
+                </div>
+                <div class="col">
+                  <input type="email" class="form-control" placeholder="Email*">
+                </div>
+                <div class="col">
+                  <input type="password" class="form-control" placeholder="Mot de passe">
+                </div>
+                <div class="col">
+                  <input type="password" class="form-control" placeholder="Confirmation de mot de passe">
+                </div>
+              </div>
+              <button type="button"  (click)="onMessage()" class="btn btn-default btn-lg next mt-5">
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </form>
+          </div>
+          <div class="col">
+            <div class="icon">
+              connexion
+          </div>
+          </div>
+        </div>
+       </div>
+       
+</div>

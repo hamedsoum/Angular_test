@@ -1,0 +1,118 @@
+
+.connexion{
+    height: 100%;
+    position: relative;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+  
+ 
+  .connexion .icon{
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: black;
+    background-color: white;
+  }
+  .connexion .next{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: white;
+    margin: 30px auto;
+    
+  }
+  
+  .connexion img{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+  }
+  
+  .connexion .application{
+    height: 100px;
+    
+  }
+  .connexion .application .title{
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 1;
+  }
+  .connexion .application .Description{
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .connexion .title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+  }
+  
+  .connexion .titleDescription{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    text-align: center;
+  }
+  
+  .connexion .form{
+    margin-top: 35px;
+  }
+  
+  .form input[type = "password"],.form input[type = "email"],.form input[type = "text"]
+  {
+    
+    background: none;
+    outline: none;
+    color: #fff;
+    border: 1px solid white;
+  }
+  ::placeholder {
+    color:white;
+    font-size:13px ;
+  }
+  .form .textLeft{
+    text-align: left;
+    margin-left:  20px;
+    font-size: 13px;
+  }
+  
+  .form .textRight{
+    text-align: right;
+    
+    font-size: 13px;
+  }
+  .connexion p{
+    font-size: 18px;
+    font-weight: 700;
+    
+  }
+  .connexion span{
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+  @media(max-width:767px){
+    .connexion p{
+        font-size: 13px;
+        
+    }
+  }
